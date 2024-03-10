@@ -1,0 +1,11 @@
+nav {
+    display: block;
+    border-bottom: 5px solid #f90;
+    padding-bottom: 5px;
+    font-size: x-large;
+}
+nav a {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 100px;
+}
