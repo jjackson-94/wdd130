@@ -6,10 +6,10 @@ body {
     padding: 20px;
 }
 :root {
-    --primary-color: #088000
-    --secondary-color: #f3f306
-    --accent1-color: #f43737
-    --accent2-color: #787fdd
+    --primary-color: #088000;
+    --secondary-color: #f3f306;
+    --accent1-color: #f43737;
+    --accent2-color: #787fdd;
 
     --heading-font: 'Merriweather', serif
     --paragraph-font: 'Open Sans', sans serif
