@@ -14,10 +14,10 @@ body {
     --heading-font: 'Merriweather', serif;
     --paragraph-font: 'Merriweather', serif;
 
-    --nav-background-color:
-    --nav-link-color:
-    --nav-hover-link-color:
-    --nav-hover-background-color:
+    --nav-background-color:'';
+    --nav-link-color:'';
+    --nav-hover-link-color:'';
+    --nav-hover-background-color:'';
 }
 body {
     font-family: var(--paragraph-font);
