@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+:root {
+    --primary-color: #1c311a;
+    --secondary-color: #f3f306;
+    --accent1-color: #e4ff84;
+    --accent2-color: #787fdd;
+
+    --heading-font: 'Merriweather', serif;
+    --paragraph-font: 'Merriweather', serif;
+
+    --nav-background-color: #0000ff;
+    --nav-link-color: #19190d;
+    --nav-hover-link-color: #ffffff;
+    --nav-hover-background-color: #9b9b9b;
+}
+Header img {
+    display: block;
+    font-family: var(--heading-font);
+    width: 200px;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+main {
+    font-family: var(--paragraph-font);
+}
+.hero {
+    margin: 10px auto;
+    position: relative;
+   
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+h1 {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+article{
+    position: absolute;
+    display: block;
+    top: 40px;
+    right: 30px;
+    float: right;
+    width: 300px;
+    
+}
+article p {
+    display: flex;
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p {
+    padding: 25px;
+}
+nav {
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 2rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
